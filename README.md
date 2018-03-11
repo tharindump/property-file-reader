@@ -7,7 +7,7 @@ The `property-file-reader` can manage multiple property files in the classpath, 
 
  If you are using maven, clone the project to your workspace and install into your local maven repository using
  ```
-maven clean install
+mvn clean install
  ```
 
 Then add as a dependancy in your project `pom.xml`
