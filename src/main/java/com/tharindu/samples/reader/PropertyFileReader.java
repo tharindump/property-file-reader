@@ -31,16 +31,6 @@ public class PropertyFileReader {
 		try {
 			this.properties = new HashMap<String, String>();
 
-			/*
-			 * 
-			 * -----------------------------------------------------------------
-			 * -- | | | Classpath issue is here, we have to fix it before
-			 * releasing it | | |
-			 * -----------------------------------------------------------------
-			 * --
-			 * 
-			 */
-
 			URL fileUrl = getClass().getResource("/" + fileName);
 			File propertyFile = new File(fileUrl.getFile());
 
